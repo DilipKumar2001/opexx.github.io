@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 15, 2021, 9:09:51 PM
+    Author     : ACS
+*/
+
+.bkg{
+    background-image: url("img/fpi.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px;
+}
+.fa{
+    font-size: 70px;
+    color: blue;
+    text-align: center;
+  text-decoration: blue;
+}
+.logo{
+    width: 40%;
+    margin: auto;
+}
+.rounded-circle{
+    
+}
+.hvr:hover{
+    border: 2px solid blue !important;
+}
+.hvr{
+    border: 1px solid darkgray;
+}
+.fab{
+     font-size: 70px;
+    text-align: center;
+  text-decoration: blue;
+}
+.nav-search-hvr a:hover{
+    color: black !important;
+}

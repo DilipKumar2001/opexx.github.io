@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       <title>OPEXX</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html"><b>OPEXX</b></a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="search.html"><b>SEARCH</b></a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html"><b>PRICING</b></a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid mx-0" style="background-color:#5DBCD2;">
+            <div class="nav-search-hvr">
+                <ul class="nav justify-content-center pt-3">
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="#">Live Tenders</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white"  href="winner.html">Winners</a></li>
+                </ul>
+            </div>
+            <form class="form-inline py-4">
+                <div class="container">
+                <div class="row  py-2">
+                    <div class="col-7">
+                        <input type="text" class="form-control-lg" placeholder="keyword" style="width: 100%">
+                    </div>
+                    <div class="col-5">
+                <input type="text" class="form-control-lg" placeholder="Location" style="width: 100%">
+                    </div>
+                </div>
+                    <div id="show_hide1" class="collapse">
+                        <div class="row  py-2">
+                        <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="Min-Value" style="width: 100%">
+                        </div>
+                    <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="Max-Value" style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="row  py-2">
+                        <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="Buyer Name" style="width: 100%">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="CPV" style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="row  py-2">
+                        <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="Published" style="width: 100%">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control-lg" placeholder="Deadline" style="width: 100%">
+                        </div>
+                    </div>
+                    </div>
+                    <center>
+                    <a data-toggle="collapse" href="#show_hide1"  style="color: white">Show More/Less</a>
+                    </center>
+                </div>
+               
+            </form>
+        </div>
+        <div class="container">
+            <center>
+                <br><br>
+                <h1 style="font-size: 60px">9,000,000 tenders at your fingertips.</h1><br>
+                <h3 style="color: blue">Start free trial for 14 days. No credit card needed.</h3><br>
+            <button type="button" class="btn btn-success">START FREE TRIAL</button>
+            </center>
+        </div>
+    </body>
+</html>
